@@ -1,2 +1,27 @@
-# angular-assignment-json-format-posts
-Download the project and run "npm install" command in terminal use url:http://localhost:4200/ to load the server in chrome.  To run the project run "ng serve" in terminal . First Screen - Post screen which will display the posts on click of readmore link body will get open which will have an "add comment" button, on click of add comment a dialog gets open which asks us to provide an name and email id which we check if it exist if not then we create it save it in a cookie and on add comment in text area and on click of submit comment is being added for that particular posts. . Second - to load the second screen route to 'http://localhost:4200//format' url which will display an input field where we enter our non format json and it will oupt in another field which will be formatted json.
+# AssignmentProject
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

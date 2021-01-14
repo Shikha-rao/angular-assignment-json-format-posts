@@ -1,0 +1,13 @@
+<div class="header">
+ Format JSON
+  </div>
+<mat-form-field class="example-full-width">
+    <mat-label>Input Data</mat-label>
+  <textarea style="height:334px" matInput #inputData (change)="inputChange()"></textarea>
+</mat-form-field>
+<mat-form-field class="example-full-width">
+    <mat-label>Output</mat-label>
+  <textarea style="height:334px" matInput readonly>{{outputjson}}</textarea>
+</mat-form-field>
+<!-- <json-editor [options]="options" [data]="outputjson"></json-editor> -->
+
